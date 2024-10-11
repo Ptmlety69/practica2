@@ -10,10 +10,20 @@ class Controlador extends Controller
         return view('index');
 }
 public function animalest(){
-    $terr=[
-        ['nombre' => '', 'Desc'=>'','Esp'=>'','Hab'=>'','img'=>''],
-        ['nombre' => '', 'Desc'=>'','Esp'=>'','Hab'=>'','img'=>''],
-        ['nombre' => '', 'Desc'=>'','Esp'=>'','Hab'=>'','img'=>''],
+    $tierra=[
+        ['nombre' => 'LEON (Panthera leo)', 'Desc'=>'león (de nombre científico Panthera leo) es un felino 
+carnívoro de gran tamaño. Es originario del África Subsahariana y 
+de ciertas regiones de la India, en donde constituye el mayor
+ depredador de la cadena trófica. Es uno de los animales salvajes 
+más conocidos y temidos por la humanidad, por su fiereza,
+ pero también admirados y representados en símbolos, relatos y esculturas.
+','Esp'=>'mamífero carnívoro de la familia de los 
+félidos y una de las 4 especies del género Panthera
+','Hab'=>': pueden sobrevivir en una amplia variedad de hábitats, como bosques secos, espesos arbustos, llanuras inundables y áreas semiáridas desérticas. Sin embargo, generalmente prefieren las sabanas
+ abiertas donde es más fácil acechar a sus presas.
+','img'=>''],
+        ['nombre' => ': Zebra  (Equus zebra)', 'Desc'=>': Las cebras son animales sociales que viven en manadas. Pacen en grupo, normalmente hierba, e incluso se acicalan unas a otras. La especie más abundante es la cebra de llanura (o de Burchell). Viven en pequeños grupos familiares formados por un macho (semental), varias hembras y sus crías.','Esp'=>' Las cebras forman parte de la familia de los équidos y existen tres especies: la cebra de Hartmann (Equus zebra), la de Grevy (Equus grevyi) y la cebra de las llanuras (Equus quagga).','Hab'=>'Tienen una amplia distribución en el este y el sur de África. Habitualmente viven en praderas sin árboles y bosques de sabana y están ausentes de desiertos, selvas tropicales y humedales.','img'=>''],
+        ['nombre' => 'Elefante ( Elephas maximus.)', 'Desc'=>': Es el mamífero más grande de la tierra puede pesar hasta ocho toneladas y mide 3 metros de alto por 7 de largo. Con grandes orejas en forma de abanico y una larga trompa. El elefante africano tiene tres dedos en la pata trasera y cinco en la parte delantera del pie','Esp'=>'','Hab'=>'','img'=>''],
         ['nombre' => '', 'Desc'=>'','Esp'=>'','Hab'=>'','img'=>''],
         ['nombre' => '', 'Desc'=>'','Esp'=>'','Hab'=>'','img'=>''],
         ['nombre' => '', 'Desc'=>'','Esp'=>'','Hab'=>'','img'=>''],
