@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="alert alert-warning" role="alert">
-  <h1 style="text-align: center;">Animales</h1>
+ <h1 style="text-align: center;">Animales @yield('titulo')</h1>
 </div>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
  @yield('elementos')
