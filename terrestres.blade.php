@@ -7,8 +7,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="/acua">Animales Acuaticos</a>
-        <a class="nav-link" href="/terr">Animales terrestres</a>
+        <a class="nav-link active" aria-current="page" href="/">Home</a>
+        <a class="nav-link" href="/acua">Animales acuaticos</a>
          </div>
     </div>
   </div>
